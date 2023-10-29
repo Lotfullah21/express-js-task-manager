@@ -23,9 +23,7 @@ app.use("/api/v2/tasks", tasks);
 app.use(notFound);
 app.use(errorHandler);
 
-app.get("/home", (req, res) => {
-  res.send("HOME");
-});
+
 
 const port = process.env.PORT || 4000;
 
